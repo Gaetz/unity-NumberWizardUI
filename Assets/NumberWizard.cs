@@ -29,13 +29,13 @@ public class NumberWizard : MonoBehaviour
 
     public void GuessHigher()
     {
-        min = guess;
+        min = guess + 1;
         Guess();
     }
 
     public void GuessLower()
     {
-        max = guess;
+        max = guess - 1;
         Guess();
     }
 
